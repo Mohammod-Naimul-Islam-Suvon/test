@@ -4,6 +4,9 @@ on:
   issues:
     types:
       - opened
+      
+env:
+  GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
 
 jobs:
   add-to-project:
@@ -15,4 +18,3 @@ jobs:
           # You can target a project in a different organization
           # to the issue
           project-url: https://github.com/orgs/Mohammod-Naimul-Islam-Suvon/projects/1
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
