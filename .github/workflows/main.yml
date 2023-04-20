@@ -14,5 +14,5 @@ jobs:
         with:
           # You can target a project in a different organization
           # to the issue
-          project-url: https://github.com/orgs/Mohammod-Naimul-Islam-Suvon/projects/1/views/1
+          project-url: https://github.com/orgs/pykale/projects/4
           github-token: ${{ secrets.GITHUB_TOKEN }}
