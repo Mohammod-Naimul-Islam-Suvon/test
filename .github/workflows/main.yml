@@ -6,7 +6,7 @@ on:
       - opened
       
 env:
-  GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
+  ADD_TO_PROJECT_PAT: ${{ secrets.ADD_TO_PROJECT_PAT }}
 
 jobs:
   add-to-project:
